@@ -1,0 +1,600 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: S2BD Bridge\n"
+"POT-Creation-Date: 2014-11-21 18:13+0400\n"
+"PO-Revision-Date: 2014-11-21 18:14+0400\n"
+"Last-Translator: Ludovic Rousselle <webbud65@gmail.com>\n"
+"Language-Team: Ludovic Rousselle <webbud65@gmail.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: fields-per-member.php:16
+msgid "List the members interests"
+msgstr "Lister les intérêts des membres"
+
+#: fields-per-member.php:17
+msgid "(subscription form, detection of response fields \"yes\")"
+msgstr "(formulaire adhésion, détection des champs de réponses \"oui\")"
+
+#: fields-per-member.php:29 forums-per-member.php:29
+#: forums-subscriptions-stats.php:47 inscribe-members.php:36
+msgid "There are no registered user roles for now."
+msgstr "Il n'y a actuellement pas d'utilisateur enregistré avec ce rôle."
+
+#: fields-per-member.php:36 forums-per-member.php:36 inscribe-members.php:43
+msgid "Members "
+msgstr "Membres"
+
+#: fields-per-member.php:70 forums-per-member.php:70 forums-per-member.php:76
+#: inscribe-members.php:106
+msgid " - User ID : "
+msgstr "- ID utilisateur :"
+
+#: fields-per-member.php:70 forums-per-member.php:70
+msgid " - Name : "
+msgstr "- Nom :"
+
+#: fields-per-member.php:70
+msgid " - Fields : "
+msgstr "- Champs :"
+
+#: fields-per-member.php:76 forums-per-member.php:81
+msgid "There are currently no members with this role."
+msgstr "Il n'y a actuellement pas de membre avec ce rôle."
+
+#: fields-per-member.php:85 forums-settings.php:118 s2bd-bridge-manager.php:47
+#: s2bd-bridge.php:52
+msgid "Forums per member"
+msgstr "Forums par membre"
+
+#: fields-settings.php:18
+msgid "Define custom fields required (subscription form S2Member)"
+msgstr "Définir les champs personnalisés requis (formulaire adhésion S2Member)"
+
+#: fields-settings.php:19
+msgid "(Reminder: fields with answers \"yes/no\", essentially)"
+msgstr "(rappels : champs de réponses \"oui/non\", essentiellement)"
+
+#: fields-settings.php:27
+msgid "Required fields already stored: "
+msgstr "Champs requis déjà mémorisés : "
+
+#: fields-settings.php:30
+msgid "Field : "
+msgstr "Champ :"
+
+#: fields-settings.php:34
+msgid ""
+"If you want, you can always change your choice of custom fields that are "
+"listed above."
+msgstr ""
+"Si vous le souhaitez, vous pouvez toujours modifier vos choix de champs "
+"personnalisés qui sont indiqués ci-dessus."
+
+#: fields-settings.php:38
+msgid "There are not yet recorded field."
+msgstr "Il n'y a pour l'instant aucun champ enregistré."
+
+#: fields-settings.php:97 forums-settings.php:72 general-settings.php:107
+msgid "Register"
+msgstr "Enregistrer"
+
+#: fields-settings.php:102
+msgid "There are currently no options in the database."
+msgstr "Il n'y a actuellement aucune option dans la base de données."
+
+#: fields-settings.php:121
+msgid "This field is already registered"
+msgstr "Ce champ est déjà enregistré"
+
+#: fields-settings.php:126 general-settings.php:71
+msgid "Inserting done!"
+msgstr "Insertion effectuée !"
+
+#: fields-settings.php:130
+msgid "Actualize the screen"
+msgstr "Actualiser l'écran"
+
+#: fields-settings.php:137
+msgid "Complete the installation (step 3)"
+msgstr "Compléter l'installation (étape 3)"
+
+#: fields-settings.php:139 s2bd-bridge.php:50
+msgid "Forums settings"
+msgstr "Paramétrages forums"
+
+#: forums-per-member.php:17
+msgid "List the forums subscriptions per member"
+msgstr "Lister les abonnements forums par membre"
+
+#: forums-per-member.php:68
+msgid "You must first select your required forums."
+msgstr "Vous devez d'abord choisir les forums désirés."
+
+#: forums-per-member.php:70 inscribe-members.php:106
+msgid " - Forums : "
+msgstr "- Forums :"
+
+#: forums-per-member.php:76
+msgid " - Forums : no registration forum."
+msgstr "- Forums : pas d'inscription digest forum."
+
+#: forums-per-member.php:91 forums-settings.php:119
+#: forums-subscriptions-stats.php:16 s2bd-bridge-manager.php:45
+#: s2bd-bridge-manager.php:48 s2bd-bridge.php:53
+msgid "Statistics"
+msgstr "Statistiques"
+
+#: forums-settings.php:17
+msgid "Associate the fields to the forums"
+msgstr "Associer les champs requis aux forums"
+
+#: forums-settings.php:25
+msgid "Required forums already stored: "
+msgstr "Forums requis déjà mémorisés : "
+
+#: forums-settings.php:32
+msgid ""
+"If you want, you can always change your choice of related forums that are "
+"listed above."
+msgstr ""
+"Si vous le souhaitez, vous pouvez toujours modifier vos choix de champs "
+"personnalisés qui sont indiqués ci-dessus."
+
+#: forums-settings.php:36
+msgid "There are not yet recorded forum."
+msgstr "Il n'y a pour l'instant aucun forum enregistré."
+
+#: forums-settings.php:66
+msgid "There are currently no forum."
+msgstr "Il n'y a actuellement aucun forum."
+
+#: forums-settings.php:75
+msgid "There are currently no recorded field."
+msgstr "Il n'y a pour l'instant aucun champ enregistré."
+
+#: forums-settings.php:98
+msgid "You must choose a forum for each stored field."
+msgstr "Vous devez choisir un forum pour chaque champ mémorisé."
+
+#: forums-settings.php:103
+msgid "Update done!"
+msgstr "Mise à jour effectuée !"
+
+#: forums-settings.php:107
+msgid "Actualize screen"
+msgstr "Actualiser l'écran"
+
+#: forums-settings.php:114
+msgid "End of the installation"
+msgstr "Fin de l'installation"
+
+#: forums-settings.php:116
+msgid ""
+"If everything was configured correctly you can now see the following screens "
+"for monitoring and subscriptions of your users:"
+msgstr ""
+"Si tout a été correctement paramétré vous pouvez maintenant consulter les "
+"écrans suivants de suivi et d'abonnements de vos utilisateurs :"
+
+#: forums-settings.php:117 s2bd-bridge-manager.php:46 s2bd-bridge.php:51
+msgid "Fields per member"
+msgstr "Champs par membre"
+
+#: forums-settings.php:120 forums-subscriptions-stats.php:126
+#: s2bd-bridge-manager.php:49 s2bd-bridge.php:54
+msgid "Inscribe members"
+msgstr "Inscrire les membres"
+
+#: forums-subscriptions-stats.php:19
+msgid "Forums statistics"
+msgstr "Statistiques forums"
+
+#: forums-subscriptions-stats.php:28
+msgid "Forums number : "
+msgstr "Nombre de forums : "
+
+#: forums-subscriptions-stats.php:31 forums-subscriptions-stats.php:120
+msgid "There are currently no forum in the database."
+msgstr "Il n'y a actuellement aucun forum dans la base de données."
+
+#: forums-subscriptions-stats.php:35
+msgid "Members statistics"
+msgstr "Statistiques membres"
+
+#: forums-subscriptions-stats.php:36
+msgid "(selected by level, see your settings in the \"General Settings\")"
+msgstr ""
+"(par niveau choisi, voir vos réglages dans les \"Paramètres généraux\")"
+
+#: forums-subscriptions-stats.php:60
+msgid "Members of level "
+msgstr "Adhérents niveau"
+
+#: forums-subscriptions-stats.php:60 forums-subscriptions-stats.php:112
+msgid " member(s)"
+msgstr "membre(s)"
+
+#: forums-subscriptions-stats.php:63
+msgid "There are currently no following role member : "
+msgstr "Il n'y a actuellement aucun membre de rôle suivant : "
+
+#: forums-subscriptions-stats.php:68
+msgid "Subscriptions Statistics (\"digests\") per forum"
+msgstr "Statistiques abonnements (\"digests\") par forum"
+
+#: forums-subscriptions-stats.php:112
+msgid " - Forum ID-Name : "
+msgstr "- Forum ID-Nom :"
+
+#: forums-subscriptions-stats.php:115
+msgid "There are currently no s2member_level1 member."
+msgstr "Il n'y a actuellement aucun membre s2member_level1."
+
+#: general-settings.php:17
+msgid "Define the general parameters"
+msgstr "Définir les paramètres généraux"
+
+#: general-settings.php:39
+msgid "There are currently no option recorded."
+msgstr "Il n'y a actuellement aucune option enregistrée."
+
+#: general-settings.php:51
+msgid "Configured Options: Member role : "
+msgstr "Options configurées : Rôle membre :"
+
+#: general-settings.php:51
+msgid " - Default forum : "
+msgstr "- Forum par défaut :"
+
+#: general-settings.php:51
+msgid " - S value(s) : "
+msgstr "- Valeur(s) S :"
+
+#: general-settings.php:58
+msgid "Some options are already registered"
+msgstr "Des options sont déjà enregistrées"
+
+#: general-settings.php:62
+msgid "Updated!"
+msgstr "Mise à jour effectuée !"
+
+#: general-settings.php:65
+msgid "No option is registered."
+msgstr "Aucune option n'est enregistrée."
+
+#: general-settings.php:82 general-settings.php:117
+msgid "User role"
+msgstr "Rôle utilisateur"
+
+#: general-settings.php:85 general-settings.php:119
+msgid "Default forum"
+msgstr "Forum par défaut"
+
+#: general-settings.php:88 general-settings.php:120
+msgid "S values"
+msgstr "Valeurs S"
+
+#: general-settings.php:91 general-settings.php:130
+msgid "Variant forum"
+msgstr "Forum variant"
+
+#: general-settings.php:93 general-settings.php:98
+msgid "For the value S"
+msgstr "Pour la valeur S"
+
+#: general-settings.php:93
+msgid "numeric identifier for which this value changes"
+msgstr "l'identifiant numérique du forum pour lequel cette valeur change"
+
+#: general-settings.php:93 general-settings.php:101
+msgid "Leave blank if the value S is always the same"
+msgstr "Laisser le champ vide si la valeur s est toujours la même"
+
+#: general-settings.php:96 general-settings.php:131
+msgid "Variance operator"
+msgstr "Opérateur de variance"
+
+#: general-settings.php:99
+msgid "if the second value of S only changes for this forum"
+msgstr "si la 2ème valeur de S change uniquement pour ce forum"
+
+#: general-settings.php:100
+msgid ""
+"if this value changes from this forum and for those whose numerical "
+"identifier is greater"
+msgstr ""
+"si cette valeur change à partir de ce forum et pour ceux dont l'identifiant "
+"numérique est supérieur"
+
+#: general-settings.php:115
+msgid "User manual"
+msgstr "Mode d'emploi"
+
+#: general-settings.php:117
+msgid "Enter here S2Member user role(s) targeted for your subscription"
+msgstr ""
+"Indiquez ici le/les rôles S2Member des utilisateurs visés pour votre "
+"abonnement"
+
+#: general-settings.php:118
+msgid "Labels to apply"
+msgstr "Libellés à appliquer"
+
+#: general-settings.php:118
+msgid "or"
+msgstr "ou"
+
+#: general-settings.php:118
+msgid "or even multiple roles, spaced with commas"
+msgstr "ou bien encore plusieurs rôles, espacés de virgules"
+
+#: general-settings.php:119
+msgid ""
+"You want your users to automatically be subscribed to a forum unrelated to "
+"any custom field, for example for internal communication to all your members"
+msgstr ""
+"Vous souhaitez abonner d'office vos utilisateurs à un forum sans relation "
+"avec aucun champ personnalisé, pour communication interne par exemple à tous "
+"vos adhérents"
+
+#: general-settings.php:119
+msgid "Indicate above its numerical identifier"
+msgstr "Indiquez ci-dessus son identifiant numérique"
+
+#: general-settings.php:120
+msgid ""
+"The most delicate, because they change according to each environment, so you "
+"must first locate value(s) of S, as shown below"
+msgstr ""
+"Le plus délicat, car elles changent selon chaque environnement, vous devez "
+"donc d'abord repérer la/les valeur(s) des S, comme indiqué ci-dessous"
+
+#: general-settings.php:121 general-settings.php:126
+msgid "Example"
+msgstr "Exemple"
+
+#: general-settings.php:122
+msgid "S value is 1"
+msgstr "la valeur S est 1"
+
+#: general-settings.php:123
+msgid "S value is 2"
+msgstr "la valeur S est 2"
+
+#: general-settings.php:124
+msgid "So here you would specify the value above"
+msgstr "Ici vous indiqueriez donc en valeur ci-dessus"
+
+#: general-settings.php:125
+msgid "Variant forum and variance operator"
+msgstr "Forum variant et opérateur de variance"
+
+#: general-settings.php:127
+msgid "Seeking your values S via the form below you get for example"
+msgstr ""
+"En recherchant vos valeurs s via le module ci-dessous vous obtenez par "
+"exemple"
+
+#: general-settings.php:129
+msgid "In this case your settings to configure will be"
+msgstr "Dans ce cas vos paramètres à configurer seront"
+
+#: general-settings.php:133
+msgid ""
+"Indeed, for all forums higher or equal to 10, the value S is equal to 2. "
+"Below for the forum 5, the value S is equal to 1."
+msgstr ""
+"En effet, pour tous les forums supérieurs ou égal à 10, la valeur s est "
+"égale à 2. En dessous, pour le forum 5, la valeur s est égale à 1."
+
+#: general-settings.php:137
+msgid "Search the S values for my environment"
+msgstr "Rechercher les valeurs S pour mon environnement"
+
+#: general-settings.php:140
+msgid "Send"
+msgstr "Envoyer"
+
+#: general-settings.php:150
+msgid "Template value for user number "
+msgstr "Valeur gabarit pour l'utilisateur n° "
+
+#: general-settings.php:153
+msgid "There is no user registered for this identifier"
+msgstr "Il n'y a pas d'utilisateur enregistré pour cet identifiant."
+
+#: general-settings.php:157
+msgid ""
+"First enter the numeric identifier of your witness user (user to pre-"
+"register on all your forums), then click on the button above to display a "
+"\"meta value\" complete template."
+msgstr ""
+"Indiquer d'abord l'identifiant numérique de votre utilisateur témoin "
+"(utilisateur à inscrire au préalable sur tous vos forums), puis cliquer sur "
+"le bouton ci-dessus pour afficher une \"meta value\" gabarit complète."
+
+#: general-settings.php:165
+msgid "Continue the installation (step 2)"
+msgstr "Poursuivre l'installation (étape 2)"
+
+#: general-settings.php:167 s2bd-bridge.php:49
+msgid "Fields settings"
+msgstr "Paramétrages champs"
+
+#: inscribe-members.php:16
+msgid "Inscribe members to forums digests"
+msgstr "Inscrire les membres aux digests forums"
+
+#: inscribe-members.php:106
+msgid " - Number of forums : "
+msgstr "- Nombre de forums :"
+
+#: inscribe-members.php:106
+msgid " - Fields interests : "
+msgstr "- Champs d'intérêts :"
+
+#: inscribe-members.php:116
+msgid "This user already has a bbpress digest: "
+msgstr "Cet utilisateur a déjà un digest bbpress :"
+
+#: inscribe-members.php:122
+msgid "No update to do"
+msgstr "Pas de mise à jour à faire"
+
+#: inscribe-members.php:125
+msgid "This user has no bbp digest... to do..."
+msgstr "Cet utilisateur n'a pas de bbp digest... à faire..."
+
+#: inscribe-members.php:130
+msgid "Insertion done... update well done!"
+msgstr "Insertion effectuée... mise à jour bien effectuée !"
+
+#: inscribe-members.php:136 inscribe-members.php:143
+msgid "Last processed user : "
+msgstr "Dernier membre traité :"
+
+#: inscribe-members.php:144
+msgid "There are currently no other member of this role to process."
+msgstr "Il n'y a pour l'instant aucun autre membre de ce rôle à traiter."
+
+#: s2bd-bridge-manager.php:15
+msgid "Home"
+msgstr "Accueil"
+
+#: s2bd-bridge-manager.php:18
+msgid ""
+"allows the linking of user custom fields (S2Member plugin) with forums "
+"(bbPress plugin) and activity notifications by email (Digests bbPress "
+"plugin) for users who are subscribed."
+msgstr ""
+"permet la mise en relation des champs personnalisés utilisateur (S2Member "
+"plugin) avec les forums (bbPress plugin) et les notifications d'activité par "
+"email (BbPress Digests plugin) aux utilisateurs qui y sont inscrits."
+
+#: s2bd-bridge-manager.php:21
+msgid ""
+"is an added extension and therefore requires the prior installation of the "
+"following extensions which makes it the gateway:"
+msgstr ""
+"est une extension ajoutée et requiert en conséquence l'installation "
+"préalable des extensions suivantes dont elle réalise la passerelle :"
+
+#: s2bd-bridge-manager.php:27
+msgid "Scenario"
+msgstr "Scenario"
+
+#: s2bd-bridge-manager.php:29
+msgid "A user registers by answering your custom questions"
+msgstr "un utilisateur s'inscrit en répondant à vos questions personnalisées"
+
+#: s2bd-bridge-manager.php:29
+msgid "(only questions with answers \"yes/no\")"
+msgstr "seulement les questions avec réponses \"oui/non\""
+
+#: s2bd-bridge-manager.php:30
+msgid "sample question"
+msgstr "exemple de question"
+
+#: s2bd-bridge-manager.php:30
+msgid "Are you interested in English literature"
+msgstr "Etes-vous intéressé par la littérature anglaise ?"
+
+#: s2bd-bridge-manager.php:30
+msgid "Possible answers: Yes or No"
+msgstr "réponses possibles : Oui ou Non"
+
+#: s2bd-bridge-manager.php:31
+msgid "Answers to questions are coupled to specific forums"
+msgstr "les réponses aux questions sont couplées à des forums spécifiques"
+
+#: s2bd-bridge-manager.php:32
+msgid "sample forum correlated"
+msgstr "exemple de forum en corrélation"
+
+#: s2bd-bridge-manager.php:32
+msgid "English literature"
+msgstr "Littérature anglaise"
+
+#: s2bd-bridge-manager.php:33
+msgid "Email notifications to user about news on related forums"
+msgstr ""
+"Des notification email aux utilisateurs sur les nouveautés sur les forums "
+"liés"
+
+#: s2bd-bridge-manager.php:36
+msgid "Features"
+msgstr "Fonctionnalités"
+
+#: s2bd-bridge-manager.php:39
+msgid "Customizable settings"
+msgstr "Paramétrages personnalisés"
+
+#: s2bd-bridge-manager.php:41
+msgid "you can choose which custom fields and forums should be considered"
+msgstr ""
+"Vous pouvez choisir les champs personnalisés et les forums à prendre en "
+"compte"
+
+#: s2bd-bridge-manager.php:41
+msgid "\"Fields settings\" and \"Forums settings\""
+msgstr "\"Paramétrage des champs\" et \"Paramétrage des forums\""
+
+#: s2bd-bridge-manager.php:42
+msgid "you can choose which member roles should be considered"
+msgstr "Vous pouvez choisir les rôles de membres à prendre en compte"
+
+#: s2bd-bridge-manager.php:42 s2bd-bridge-manager.php:43
+msgid "\"General settings\""
+msgstr "\"Paramètres généraux\""
+
+#: s2bd-bridge-manager.php:43
+msgid "you can choose a forum mandatory notification to all members"
+msgstr ""
+"Vous pouvez choisir un forum obligatoire de notification à tous les membres"
+
+#: s2bd-bridge-manager.php:45
+msgid "Customizable S2Member membership counting"
+msgstr "Comptage personnalisable des membres par niveau S2Member"
+
+#: s2bd-bridge-manager.php:46
+msgid "Listing S2Member members answers to questions"
+msgstr "Listing des réponses des membres S2Member aux questions"
+
+#: s2bd-bridge-manager.php:47
+msgid "Listing Bbpress forums members registrations"
+msgstr "Listing des inscriptions de membres aux forums Bbpress"
+
+#: s2bd-bridge-manager.php:48
+msgid "Counting subscribers digests by forum"
+msgstr "Comptage des abonnements de membres par forum"
+
+#: s2bd-bridge-manager.php:49
+msgid ""
+"Manual registration of S2Member members at email notifications of activity "
+"on bbpress forums"
+msgstr ""
+"Inscription manuelle des membres S2Member aux notifications email d'activité "
+"(digests) sur les forums bbpress"
+
+#: s2bd-bridge-manager.php:54
+msgid "Begin the installation (step 1)"
+msgstr "Commencer l'installation (étape 1)"
+
+#: s2bd-bridge-manager.php:56 s2bd-bridge.php:48
+msgid "General settings"
+msgstr "Paramètres généraux"
+
+#: s2bd-bridge.php:45
+msgid "S2BD Bridge"
+msgstr "S2BD Bridge"
