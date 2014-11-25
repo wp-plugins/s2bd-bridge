@@ -8,7 +8,7 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-S2BD Bridge is an addon plugin which allows the linking of user's custom fields (S2Member) with forums (bbPress) digests (bbPress Digests).
+S2BD Bridge is an addon plugin which allows the linking of custom profile fields (S2Member) with forums (bbPress) digests (bbPress Digests).
 
 == Description ==
 
@@ -40,23 +40,21 @@ Features :
 
 == Installation ==
 
-1. Open `wp-content/plugins` Folder
-2. Put: `Folder: s2bd-bridge`
-3. Go to `wp-admin and activate `S2BD Bridge` Plugin
-4. Rename `htaccess.txt` to `.htaccess` file in `Folder: wp-content/plugins/s2bd-bridge`
-5. Go to `wp-admin -> S2BD Bridge` to configure the S2BD Bridge options.
+1. Open wp-content/plugins folder
+2. Put s2bd-bridge folder
+3. Go to wp-admin, in your dashboard, and activate S2BD Bridge Plugin
+4. Rename htaccess.txt to .htaccess file in folder: wp-content/plugins/s2bd-bridge
+5. Go to wp-admin, in your dashboard, then S2BD Bridge menu to configure the S2BD Bridge options.
 
 == Upgrading ==
 
-1. Deactivate `S2BD Bridge` Plugin
-2. Open `wp-content/plugins` Folder
-3. Put/Overwrite: `Folder: s2bd-bridge`
-4. Go to `wp-admin and reactivate `S2BD Bridge` Plugin
-5. Go to `wp-admin -> S2BD Bridge` to re-configure the database options.
+1. Deactivate S2BD Bridge plugin in your dashboard
+2. Open wp-content/plugins folder
+3. Put/Overwrite s2bd-bridge folder
+4. Go to wp-admin, in your dashboard, and reactivate S2BD Bridge plugin
+5. Go to wp-admin, in your dashboard, then S2BD Bridge menu to re-configure the database options.
 
 == Frequently Asked Questions ==
-
-= not yet =
 
 not yet.
 
@@ -78,5 +76,6 @@ not yet
 == Upgrade Notice ==
 
 = 1.0 =
-not yet
+
+First release 25/11/14
 
