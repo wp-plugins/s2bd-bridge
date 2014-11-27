@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: S2BD Bridge\n"
-"POT-Creation-Date: 2014-11-21 18:13+0400\n"
-"PO-Revision-Date: 2014-11-21 18:14+0400\n"
+"POT-Creation-Date: 2014-11-27 17:53+0400\n"
+"PO-Revision-Date: 2014-11-27 17:53+0400\n"
 "Last-Translator: Ludovic Rousselle <webbud65@gmail.com>\n"
 "Language-Team: Ludovic Rousselle <webbud65@gmail.com>\n"
 "Language: fr_FR\n"
@@ -148,8 +148,8 @@ msgid ""
 "If you want, you can always change your choice of related forums that are "
 "listed above."
 msgstr ""
-"Si vous le souhaitez, vous pouvez toujours modifier vos choix de champs "
-"personnalisés qui sont indiqués ci-dessus."
+"Si vous le souhaitez, vous pouvez toujours modifier vos choix de forums qui "
+"sont indiqués ci-dessus."
 
 #: forums-settings.php:36
 msgid "There are not yet recorded forum."
@@ -594,6 +594,14 @@ msgstr "Commencer l'installation (étape 1)"
 #: s2bd-bridge-manager.php:56 s2bd-bridge.php:48
 msgid "General settings"
 msgstr "Paramètres généraux"
+
+#: s2bd-bridge-manager.php:60
+msgid ""
+"If you have found this extension very useful, thank you for making a "
+"donation to the developer! :)"
+msgstr ""
+"Si vous avez trouvé cet extension bien utile, merci de faire un don au "
+"développeur ! :)"
 
 #: s2bd-bridge.php:45
 msgid "S2BD Bridge"

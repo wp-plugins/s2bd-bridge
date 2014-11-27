@@ -57,6 +57,7 @@ $base_page = 'admin.php?page='.$base_name;
 	</p>
 	
 	<hr />
+	<p><?php _e('If you have found this extension very useful, thank you for making a donation to the developer! :)', 's2bd-bridge'); ?></p>
 	<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 	<input type="hidden" name="cmd" value="_s-xclick">
 	<input type="hidden" name="hosted_button_id" value="L3VGXBMWAD2VG">

@@ -27,7 +27,7 @@ $wpdb = $table_prefix ;
 		echo '<h4>'.__('Required fields already stored: ', 's2bd-bridge').'</h4>';
 		while($data = mysql_fetch_assoc($result_select)) { 	
 			$i++ ;
-			echo $i . ' - ' .__('Field : ', 's2bd-bridge'). ' ' . $data['field'] . '<br />' ;
+			echo "<p>". $i . ' - ' .__('Field : ', 's2bd-bridge'). ' ' . $data['field'] . '</p>' ;
 			$selected_fields_o .= $data['field'] . " " ;
 		}
 		//echo $selected_fields_o . '<hr />' ;

@@ -40,7 +40,7 @@ $wpdb = $table_prefix ;
 	$listroles = preg_split("/[\s,;]+/", $user_roles) ;
 	foreach ($listroles as $value) {
 		
-		echo '<h4>'.__('Members ', 's2bd-bridge').$value.'</h4>' ;
+		echo '<h4>'.__('Members ', 's2bd-bridge').' '.$value.'</h4>' ;
 		/***/
 		
 		$sql_lastuser = "SELECT `user_id` FROM `".$wpdb."usermeta` WHERE `meta_key` = '".$wpdb."capabilities' AND `meta_value` LIKE '%".$value."%' AND `user_id` > '" . $lastiduser . "' LIMIT 0 , 30" ;

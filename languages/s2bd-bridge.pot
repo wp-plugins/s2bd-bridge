@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: S2BD Bridge\n"
-"POT-Creation-Date: 2014-11-21 18:13+0400\n"
-"PO-Revision-Date: 2014-11-21 18:13+0400\n"
+"POT-Creation-Date: 2014-11-27 17:54+0400\n"
+"PO-Revision-Date: 2014-11-27 17:54+0400\n"
 "Last-Translator: Ludovic Rousselle <webbud65@gmail.com>\n"
 "Language-Team: Ludovic Rousselle <webbud65@gmail.com>\n"
 "Language: en\n"
@@ -558,6 +558,12 @@ msgstr ""
 
 #: s2bd-bridge-manager.php:56 s2bd-bridge.php:48
 msgid "General settings"
+msgstr ""
+
+#: s2bd-bridge-manager.php:60
+msgid ""
+"If you have found this extension very useful, thank you for making a "
+"donation to the developer! :)"
 msgstr ""
 
 #: s2bd-bridge.php:45

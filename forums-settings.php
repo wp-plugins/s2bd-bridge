@@ -25,7 +25,7 @@ $wpdb = $table_prefix ;
 		echo '<h4>'.__('Required forums already stored: ', 's2bd-bridge').'</h4>';
 		while($data = mysql_fetch_assoc($result_select)) { 	
 			$i++ ;
-			echo "<p>". $i . " - " . "Champs : " . $data['field'] . " --> Forum : " . $data['forum'] . "</p>" ;
+			echo "<p>". $i . " - " . "Champs : " . $data['field'] . " >> Forum : " . $data['forum'] . "</p>" ;
 			$selected_forums .= $data['forum'] . " " ;
 		}
 		//echo $selected_forums . '<hr />' ;
