@@ -33,7 +33,7 @@ $wpdb = $table_prefix ;
 	$listroles = preg_split("/[\s,;]+/", $user_roles) ;
 	foreach ($listroles as $value) {
 		
-		echo '<h4>'.__('Members ', 's2bd-bridge').$value.'</h4>' ;
+		echo '<h4>'.__('Members ', 's2bd-bridge').' '.$value.'</h4>' ;
 		/***/
 		$i = 0 ;
 		//$sql_users = "SELECT `user_id` FROM `".$wpdb."usermeta` WHERE `meta_value` LIKE '%s2member_level1%'" ; 
@@ -73,7 +73,7 @@ $wpdb = $table_prefix ;
 					echo "</p>" ;
 				}
 				else {	
-					echo '<p>'.$i.__(' - User ID : ', 's2bd-bridge').' '.$user_id.' '.__(' - Forums : no registration forum.', 's2bd-bridge').'</p>' ;	
+					echo '<p>'.$i.__(' - User ID : ', 's2bd-bridge').' '.$user_id.' '.__(' - Name : ', 's2bd-bridge').' '.$user_login.' '.__(' - Forums : no registration forum.', 's2bd-bridge').'</p>' ;	
 				}
 			}	
 		}

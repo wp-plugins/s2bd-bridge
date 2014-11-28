@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: S2BD Bridge\n"
-"POT-Creation-Date: 2014-11-27 17:54+0400\n"
-"PO-Revision-Date: 2014-11-27 17:54+0400\n"
+"POT-Creation-Date: 2014-11-28 09:42+0400\n"
+"PO-Revision-Date: 2014-11-28 09:43+0400\n"
 "Last-Translator: Ludovic Rousselle <webbud65@gmail.com>\n"
 "Language-Team: Ludovic Rousselle <webbud65@gmail.com>\n"
 "Language: en\n"
@@ -36,11 +36,11 @@ msgid "Members "
 msgstr ""
 
 #: fields-per-member.php:70 forums-per-member.php:70 forums-per-member.php:76
-#: inscribe-members.php:106
+#: inscribe-members.php:104
 msgid " - User ID : "
 msgstr ""
 
-#: fields-per-member.php:70 forums-per-member.php:70
+#: fields-per-member.php:70 forums-per-member.php:70 forums-per-member.php:76
 msgid " - Name : "
 msgstr ""
 
@@ -119,7 +119,7 @@ msgstr ""
 msgid "You must first select your required forums."
 msgstr ""
 
-#: forums-per-member.php:70 inscribe-members.php:106
+#: forums-per-member.php:70 inscribe-members.php:104
 msgid " - Forums : "
 msgstr ""
 
@@ -413,35 +413,35 @@ msgstr ""
 msgid "Inscribe members to forums digests"
 msgstr ""
 
-#: inscribe-members.php:106
+#: inscribe-members.php:104
 msgid " - Number of forums : "
 msgstr ""
 
-#: inscribe-members.php:106
+#: inscribe-members.php:104
 msgid " - Fields interests : "
 msgstr ""
 
-#: inscribe-members.php:116
-msgid "This user already has a bbpress digest: "
+#: inscribe-members.php:114
+msgid "This user already has a bbpress digest... "
 msgstr ""
 
-#: inscribe-members.php:122
+#: inscribe-members.php:115
 msgid "No update to do"
 msgstr ""
 
-#: inscribe-members.php:125
+#: inscribe-members.php:119
 msgid "This user has no bbp digest... to do..."
 msgstr ""
 
-#: inscribe-members.php:130
+#: inscribe-members.php:124
 msgid "Insertion done... update well done!"
 msgstr ""
 
-#: inscribe-members.php:136 inscribe-members.php:143
-msgid "Last processed user : "
+#: inscribe-members.php:130 inscribe-members.php:137
+msgid "Last processed user, user ID : "
 msgstr ""
 
-#: inscribe-members.php:144
+#: inscribe-members.php:138
 msgid "There are currently no other member of this role to process."
 msgstr ""
 

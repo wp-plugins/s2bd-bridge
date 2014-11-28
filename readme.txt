@@ -1,7 +1,7 @@
 === S2BD Bridge ===
 Contributors: webbud65
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=L3VGXBMWAD2VG
-Tags: s2member, bbpress, bbpress digest, custom profile fields, forum digests, emails notifications, linking fields with forums.
+Tags: s2member custom profile fields, bbpress forum digests, bbpress digest email notifications, linking fields with forums, bbpress, bbpress digest, s2member.
 Requires at least: 4.0 (not tested below)
 Tested up to: 4.0.1
 Stable tag: 1.0
@@ -72,6 +72,7 @@ not yet.
 == Changelog ==
 
 = 1.0.1 =
+27/11/14
 * Small layout corrections
 * Corrections of the translation file
 * Corrections of the readme.txt file

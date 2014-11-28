@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: S2BD Bridge\n"
-"POT-Creation-Date: 2014-11-27 17:53+0400\n"
-"PO-Revision-Date: 2014-11-27 17:53+0400\n"
+"POT-Creation-Date: 2014-11-28 09:43+0400\n"
+"PO-Revision-Date: 2014-11-28 09:44+0400\n"
 "Last-Translator: Ludovic Rousselle <webbud65@gmail.com>\n"
 "Language-Team: Ludovic Rousselle <webbud65@gmail.com>\n"
 "Language: fr_FR\n"
@@ -36,11 +36,11 @@ msgid "Members "
 msgstr "Membres"
 
 #: fields-per-member.php:70 forums-per-member.php:70 forums-per-member.php:76
-#: inscribe-members.php:106
+#: inscribe-members.php:104
 msgid " - User ID : "
 msgstr "- ID utilisateur :"
 
-#: fields-per-member.php:70 forums-per-member.php:70
+#: fields-per-member.php:70 forums-per-member.php:70 forums-per-member.php:76
 msgid " - Name : "
 msgstr "- Nom :"
 
@@ -121,7 +121,7 @@ msgstr "Lister les abonnements forums par membre"
 msgid "You must first select your required forums."
 msgstr "Vous devez d'abord choisir les forums désirés."
 
-#: forums-per-member.php:70 inscribe-members.php:106
+#: forums-per-member.php:70 inscribe-members.php:104
 msgid " - Forums : "
 msgstr "- Forums :"
 
@@ -436,35 +436,35 @@ msgstr "Paramétrages champs"
 msgid "Inscribe members to forums digests"
 msgstr "Inscrire les membres aux digests forums"
 
-#: inscribe-members.php:106
+#: inscribe-members.php:104
 msgid " - Number of forums : "
 msgstr "- Nombre de forums :"
 
-#: inscribe-members.php:106
+#: inscribe-members.php:104
 msgid " - Fields interests : "
 msgstr "- Champs d'intérêts :"
 
-#: inscribe-members.php:116
-msgid "This user already has a bbpress digest: "
-msgstr "Cet utilisateur a déjà un digest bbpress :"
+#: inscribe-members.php:114
+msgid "This user already has a bbpress digest... "
+msgstr "Cet utilisateur a déjà un digest bbpress..."
 
-#: inscribe-members.php:122
+#: inscribe-members.php:115
 msgid "No update to do"
 msgstr "Pas de mise à jour à faire"
 
-#: inscribe-members.php:125
+#: inscribe-members.php:119
 msgid "This user has no bbp digest... to do..."
 msgstr "Cet utilisateur n'a pas de bbp digest... à faire..."
 
-#: inscribe-members.php:130
+#: inscribe-members.php:124
 msgid "Insertion done... update well done!"
 msgstr "Insertion effectuée... mise à jour bien effectuée !"
 
-#: inscribe-members.php:136 inscribe-members.php:143
-msgid "Last processed user : "
-msgstr "Dernier membre traité :"
+#: inscribe-members.php:130 inscribe-members.php:137
+msgid "Last processed user, user ID : "
+msgstr "Dernier membre traité, ID membre :"
 
-#: inscribe-members.php:144
+#: inscribe-members.php:138
 msgid "There are currently no other member of this role to process."
 msgstr "Il n'y a pour l'instant aucun autre membre de ce rôle à traiter."
 
@@ -606,3 +606,12 @@ msgstr ""
 #: s2bd-bridge.php:45
 msgid "S2BD Bridge"
 msgstr "S2BD Bridge"
+
+#~ msgid "This user already has a bbpress digest: "
+#~ msgstr "Cet utilisateur a déjà un digest bbpress :"
+
+#~ msgid "Last processed user : "
+#~ msgstr "Dernier membre traité :"
+
+#~ msgid "Inscribe this user"
+#~ msgstr "Inscrire ce membre"

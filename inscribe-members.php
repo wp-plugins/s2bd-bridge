@@ -26,7 +26,7 @@ $wpdb = $table_prefix ;
 	if(mysql_num_rows($req_options)){
 		$data_options = mysql_fetch_assoc($req_options) ;
 		$user_roles = $data_options['user_role'] ;
-		//echo $user_roles.'<br />' ;
+		//echo $user_roles.'<br />' ;	//test
 		$default_forums = $data_options['default_forums'] ;
 		$s_values = $data_options['s_values'] ;
 		$variant_forum = $data_options['variant_forum'] ;
@@ -76,12 +76,12 @@ $wpdb = $table_prefix ;
 					$forums = substr($forums,0,-1);
 				}
 				$digests = preg_split("/-/", $forums) ;
-				//print_r($digests).'<br />' ;
+				//print_r($digests).'<br />' ;	//test
 				$bbpdigestforums = 'a:' . $nbforums . ':{' ;
 				$k = -1 ;
 				foreach ($digests as &$value) {
 					$k++;
-					//echo $value.'<br />' ;
+					//echo $value.'<br />' ;	//test
 					//if($value >= 13729) {$s = 5 ;} else {$s = 4 ;}							//ONLINE pre settings : s values
 					//if($value == 5) {$s = 1 ;} else {$s = 2 ;}								//LOCAL
 					list($s_value1, $s_value2) = explode(',', $s_values);
@@ -101,11 +101,9 @@ $wpdb = $table_prefix ;
 				}
 				$bbpdigestforums .= '}' ;
 				
-				//echo "<p>" . $i . " - User id : " . $user_id . " - " ;	
-				//echo "Nombre forum(s) : " . $nbforums . " - " . "Forum(s) : " . $forums . " - " . "Intérêts forums : " . $fields . "</p>" ;
-				echo '<p>'.$i.__(' - User ID : ', 's2bd-bridge').$user_id.__(' - Number of forums : ', 's2bd-bridge').$nbforums.__(' - Forums : ', 's2bd-bridge').$forums.__(' - Fields interests : ', 's2bd-bridge').$fields.'</p>' ;
+				echo '<p>'.$i.__(' - User ID : ', 's2bd-bridge').' '.$user_id.' '.__(' - Number of forums : ', 's2bd-bridge').' '.$nbforums.' '.__(' - Forums : ', 's2bd-bridge').' '.$forums.' '.__(' - Fields interests : ', 's2bd-bridge').' '.$fields.'</p>' ;
 				
-				echo $bbpdigestforums . "<br />" ;
+				//echo $bbpdigestforums . "<br />" ;	//test what ???
 				
 				if ( $bbpdigestforums != '' ) {
 					$sql_digest = "SELECT `umeta_id`, `meta_value` FROM `".$wpdb."usermeta` WHERE `user_id` = '" . $user_id . "' AND `meta_key` = 'bbp_digest_forums'" ;
@@ -113,13 +111,9 @@ $wpdb = $table_prefix ;
 					$data_digest = mysql_fetch_assoc($req_digest);
 					$data_id = $data_digest['umeta_id'] ;
 					if( $data_id != '' ){
-						echo '<p style="color : red;">'.__('This user already has a bbpress digest: ', 's2bd-bridge').$data_digest['meta_value'].'</p>' ;
-						/*
-						$sql_update = "UPDATE `".$wpdb."usermeta` SET `user_id` = '" . $user_id . "', `meta_key` = 'bbp_digest_forums', `meta_value` = '" . $bbpdigestforums . "' WHERE `umeta_id` = '" . $data_id . "'" ;
-						$result_update = mysql_query($sql_update) or die('Erreur SQL !<br>'.$sql_update.'<br>'.mysql_error());
-						*/
-						//echo '<span>Mise à jour... modification bien effectuée !</span><br />' ;
-						echo '<p style="color : green;">'.__('No update to do', 's2bd-bridge').'.</p>' ;
+						echo '<p style="color : green;">'.__('This user already has a bbpress digest... ', 's2bd-bridge') ;
+						echo __('No update to do', 's2bd-bridge').'.</p>' ;
+						//echo '</p>'.echo __('Forums already registered: ', 's2bd-bridge'). ' ' .$data_digest['meta_value'].'</p>' ;	//test
 					}
 					else {
 						echo '<p style="color : red;">'.__('This user has no bbp digest... to do...', 's2bd-bridge').'</p>' ;
@@ -133,14 +127,14 @@ $wpdb = $table_prefix ;
 				echo '<hr />' ;	
 			}
 			$lastiduser = $user_id ;
-			echo '<p style="color : red;">'.__('Last processed user : ', 's2bd-bridge').' '.$lastiduser.'</p>' ;
+			echo '<p style="color : orange;">'.__('Last processed user, user ID : ', 's2bd-bridge').' '.$lastiduser.'</p>' ;
 			$fp = fopen (dirname(__FILE__)."/lastiduser.txt", "r+");
 			fseek ($fp, 0);
 			fputs ($fp, $lastiduser);
 			fclose ($fp);
 		}
 		else {
-			echo '<p style="color : red;">'.__('Last processed user : ', 's2bd-bridge').' '.$lastiduser.'</p>' ;
+			echo '<p style="color : red;">'.__('Last processed user, user ID : ', 's2bd-bridge').' '.$lastiduser.'</p>' ;
 			echo '<p style="color : green;">'.__('There are currently no other member of this role to process.', 's2bd-bridge').'</p>' ;
 		}
 		
