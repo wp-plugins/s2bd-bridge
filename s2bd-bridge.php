@@ -2,8 +2,8 @@
 /**
 	* Plugin Name: S2BD Bridge
 	* Plugin URI: http://buddy-wds.com/developpements/extensions/s2bd-bridge/
-	* Description: allows the linking of user custom fields (S2Member plugin) with forums (bbPress plugin) and activity notifications by email (Digests bbPress plugin) for users who are subscribed.
-	* Version: 1.0
+	* Description: Allows the linking of user custom fields (S2Member plugin) with forums (bbPress plugin) and activity notifications by email (Digests bbPress plugin) for users who are subscribed.
+	* Version: 1.0.1
 	* Author: Ludovic Rousselle
 	* Author URI: http://buddy-wds.com/
 	* Text Domain: s2bd-bridge
