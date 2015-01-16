@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: S2BD Bridge\n"
-"POT-Creation-Date: 2014-11-28 09:43+0400\n"
-"PO-Revision-Date: 2014-11-28 09:44+0400\n"
+"POT-Creation-Date: 2015-01-15 16:51+0400\n"
+"PO-Revision-Date: 2015-01-15 16:52+0400\n"
 "Last-Translator: Ludovic Rousselle <webbud65@gmail.com>\n"
 "Language-Team: Ludovic Rousselle <webbud65@gmail.com>\n"
 "Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.7.3\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
@@ -27,16 +27,16 @@ msgid "(subscription form, detection of response fields \"yes\")"
 msgstr "(formulaire adhésion, détection des champs de réponses \"oui\")"
 
 #: fields-per-member.php:29 forums-per-member.php:29
-#: forums-subscriptions-stats.php:47 inscribe-members.php:36
+#: forums-subscriptions-stats.php:47 inscribe-members.php:41
 msgid "There are no registered user roles for now."
 msgstr "Il n'y a actuellement pas d'utilisateur enregistré avec ce rôle."
 
-#: fields-per-member.php:36 forums-per-member.php:36 inscribe-members.php:43
+#: fields-per-member.php:36 forums-per-member.php:36 inscribe-members.php:48
 msgid "Members "
 msgstr "Membres"
 
 #: fields-per-member.php:70 forums-per-member.php:70 forums-per-member.php:76
-#: inscribe-members.php:104
+#: inscribe-members.php:109
 msgid " - User ID : "
 msgstr "- ID utilisateur :"
 
@@ -85,7 +85,7 @@ msgstr ""
 msgid "There are not yet recorded field."
 msgstr "Il n'y a pour l'instant aucun champ enregistré."
 
-#: fields-settings.php:97 forums-settings.php:72 general-settings.php:107
+#: fields-settings.php:97 forums-settings.php:72 general-settings.php:131
 msgid "Register"
 msgstr "Enregistrer"
 
@@ -97,7 +97,7 @@ msgstr "Il n'y a actuellement aucune option dans la base de données."
 msgid "This field is already registered"
 msgstr "Ce champ est déjà enregistré"
 
-#: fields-settings.php:126 general-settings.php:71
+#: fields-settings.php:126 general-settings.php:95
 msgid "Inserting done!"
 msgstr "Insertion effectuée !"
 
@@ -121,7 +121,7 @@ msgstr "Lister les abonnements forums par membre"
 msgid "You must first select your required forums."
 msgstr "Vous devez d'abord choisir les forums désirés."
 
-#: forums-per-member.php:70 inscribe-members.php:104
+#: forums-per-member.php:70 inscribe-members.php:109
 msgid " - Forums : "
 msgstr "- Forums :"
 
@@ -241,75 +241,75 @@ msgstr "- Forum ID-Nom :"
 msgid "There are currently no s2member_level1 member."
 msgstr "Il n'y a actuellement aucun membre s2member_level1."
 
-#: general-settings.php:17
+#: general-settings.php:41
 msgid "Define the general parameters"
 msgstr "Définir les paramètres généraux"
 
-#: general-settings.php:39
+#: general-settings.php:63
 msgid "There are currently no option recorded."
 msgstr "Il n'y a actuellement aucune option enregistrée."
 
-#: general-settings.php:51
+#: general-settings.php:75
 msgid "Configured Options: Member role : "
 msgstr "Options configurées : Rôle membre :"
 
-#: general-settings.php:51
+#: general-settings.php:75
 msgid " - Default forum : "
 msgstr "- Forum par défaut :"
 
-#: general-settings.php:51
+#: general-settings.php:75
 msgid " - S value(s) : "
 msgstr "- Valeur(s) S :"
 
-#: general-settings.php:58
+#: general-settings.php:82
 msgid "Some options are already registered"
 msgstr "Des options sont déjà enregistrées"
 
-#: general-settings.php:62
+#: general-settings.php:86
 msgid "Updated!"
 msgstr "Mise à jour effectuée !"
 
-#: general-settings.php:65
+#: general-settings.php:89
 msgid "No option is registered."
 msgstr "Aucune option n'est enregistrée."
 
-#: general-settings.php:82 general-settings.php:117
+#: general-settings.php:106 general-settings.php:141
 msgid "User role"
 msgstr "Rôle utilisateur"
 
-#: general-settings.php:85 general-settings.php:119
+#: general-settings.php:109 general-settings.php:143
 msgid "Default forum"
 msgstr "Forum par défaut"
 
-#: general-settings.php:88 general-settings.php:120
+#: general-settings.php:112 general-settings.php:144
 msgid "S values"
 msgstr "Valeurs S"
 
-#: general-settings.php:91 general-settings.php:130
+#: general-settings.php:115 general-settings.php:154
 msgid "Variant forum"
 msgstr "Forum variant"
 
-#: general-settings.php:93 general-settings.php:98
+#: general-settings.php:117 general-settings.php:122
 msgid "For the value S"
 msgstr "Pour la valeur S"
 
-#: general-settings.php:93
+#: general-settings.php:117
 msgid "numeric identifier for which this value changes"
 msgstr "l'identifiant numérique du forum pour lequel cette valeur change"
 
-#: general-settings.php:93 general-settings.php:101
+#: general-settings.php:117 general-settings.php:125
 msgid "Leave blank if the value S is always the same"
 msgstr "Laisser le champ vide si la valeur s est toujours la même"
 
-#: general-settings.php:96 general-settings.php:131
+#: general-settings.php:120 general-settings.php:155
 msgid "Variance operator"
 msgstr "Opérateur de variance"
 
-#: general-settings.php:99
+#: general-settings.php:123
 msgid "if the second value of S only changes for this forum"
 msgstr "si la 2ème valeur de S change uniquement pour ce forum"
 
-#: general-settings.php:100
+#: general-settings.php:124
 msgid ""
 "if this value changes from this forum and for those whose numerical "
 "identifier is greater"
@@ -317,29 +317,29 @@ msgstr ""
 "si cette valeur change à partir de ce forum et pour ceux dont l'identifiant "
 "numérique est supérieur"
 
-#: general-settings.php:115
+#: general-settings.php:139
 msgid "User manual"
 msgstr "Mode d'emploi"
 
-#: general-settings.php:117
+#: general-settings.php:141
 msgid "Enter here S2Member user role(s) targeted for your subscription"
 msgstr ""
 "Indiquez ici le/les rôles S2Member des utilisateurs visés pour votre "
 "abonnement"
 
-#: general-settings.php:118
+#: general-settings.php:142
 msgid "Labels to apply"
 msgstr "Libellés à appliquer"
 
-#: general-settings.php:118
+#: general-settings.php:142
 msgid "or"
 msgstr "ou"
 
-#: general-settings.php:118
+#: general-settings.php:142
 msgid "or even multiple roles, spaced with commas"
 msgstr "ou bien encore plusieurs rôles, espacés de virgules"
 
-#: general-settings.php:119
+#: general-settings.php:143
 msgid ""
 "You want your users to automatically be subscribed to a forum unrelated to "
 "any custom field, for example for internal communication to all your members"
@@ -348,11 +348,11 @@ msgstr ""
 "avec aucun champ personnalisé, pour communication interne par exemple à tous "
 "vos adhérents"
 
-#: general-settings.php:119
+#: general-settings.php:143
 msgid "Indicate above its numerical identifier"
 msgstr "Indiquez ci-dessus son identifiant numérique"
 
-#: general-settings.php:120
+#: general-settings.php:144
 msgid ""
 "The most delicate, because they change according to each environment, so you "
 "must first locate value(s) of S, as shown below"
@@ -360,37 +360,37 @@ msgstr ""
 "Le plus délicat, car elles changent selon chaque environnement, vous devez "
 "donc d'abord repérer la/les valeur(s) des S, comme indiqué ci-dessous"
 
-#: general-settings.php:121 general-settings.php:126
+#: general-settings.php:145 general-settings.php:150
 msgid "Example"
 msgstr "Exemple"
 
-#: general-settings.php:122
+#: general-settings.php:146
 msgid "S value is 1"
 msgstr "la valeur S est 1"
 
-#: general-settings.php:123
+#: general-settings.php:147
 msgid "S value is 2"
 msgstr "la valeur S est 2"
 
-#: general-settings.php:124
+#: general-settings.php:148
 msgid "So here you would specify the value above"
 msgstr "Ici vous indiqueriez donc en valeur ci-dessus"
 
-#: general-settings.php:125
+#: general-settings.php:149
 msgid "Variant forum and variance operator"
 msgstr "Forum variant et opérateur de variance"
 
-#: general-settings.php:127
+#: general-settings.php:151
 msgid "Seeking your values S via the form below you get for example"
 msgstr ""
 "En recherchant vos valeurs s via le module ci-dessous vous obtenez par "
 "exemple"
 
-#: general-settings.php:129
+#: general-settings.php:153
 msgid "In this case your settings to configure will be"
 msgstr "Dans ce cas vos paramètres à configurer seront"
 
-#: general-settings.php:133
+#: general-settings.php:157
 msgid ""
 "Indeed, for all forums higher or equal to 10, the value S is equal to 2. "
 "Below for the forum 5, the value S is equal to 1."
@@ -398,23 +398,23 @@ msgstr ""
 "En effet, pour tous les forums supérieurs ou égal à 10, la valeur s est "
 "égale à 2. En dessous, pour le forum 5, la valeur s est égale à 1."
 
-#: general-settings.php:137
+#: general-settings.php:161
 msgid "Search the S values for my environment"
 msgstr "Rechercher les valeurs S pour mon environnement"
 
-#: general-settings.php:140
+#: general-settings.php:164
 msgid "Send"
 msgstr "Envoyer"
 
-#: general-settings.php:150
+#: general-settings.php:174
 msgid "Template value for user number "
 msgstr "Valeur gabarit pour l'utilisateur n° "
 
-#: general-settings.php:153
+#: general-settings.php:177
 msgid "There is no user registered for this identifier"
 msgstr "Il n'y a pas d'utilisateur enregistré pour cet identifiant."
 
-#: general-settings.php:157
+#: general-settings.php:181
 msgid ""
 "First enter the numeric identifier of your witness user (user to pre-"
 "register on all your forums), then click on the button above to display a "
@@ -424,11 +424,11 @@ msgstr ""
 "(utilisateur à inscrire au préalable sur tous vos forums), puis cliquer sur "
 "le bouton ci-dessus pour afficher une \"meta value\" gabarit complète."
 
-#: general-settings.php:165
+#: general-settings.php:189
 msgid "Continue the installation (step 2)"
 msgstr "Poursuivre l'installation (étape 2)"
 
-#: general-settings.php:167 s2bd-bridge.php:49
+#: general-settings.php:191 s2bd-bridge.php:49
 msgid "Fields settings"
 msgstr "Paramétrages champs"
 
@@ -436,35 +436,35 @@ msgstr "Paramétrages champs"
 msgid "Inscribe members to forums digests"
 msgstr "Inscrire les membres aux digests forums"
 
-#: inscribe-members.php:104
+#: inscribe-members.php:109
 msgid " - Number of forums : "
 msgstr "- Nombre de forums :"
 
-#: inscribe-members.php:104
+#: inscribe-members.php:109
 msgid " - Fields interests : "
 msgstr "- Champs d'intérêts :"
 
-#: inscribe-members.php:114
+#: inscribe-members.php:119
 msgid "This user already has a bbpress digest... "
 msgstr "Cet utilisateur a déjà un digest bbpress..."
 
-#: inscribe-members.php:115
+#: inscribe-members.php:120
 msgid "No update to do"
 msgstr "Pas de mise à jour à faire"
 
-#: inscribe-members.php:119
+#: inscribe-members.php:124
 msgid "This user has no bbp digest... to do..."
 msgstr "Cet utilisateur n'a pas de bbp digest... à faire..."
 
-#: inscribe-members.php:124
+#: inscribe-members.php:129
 msgid "Insertion done... update well done!"
 msgstr "Insertion effectuée... mise à jour bien effectuée !"
 
-#: inscribe-members.php:130 inscribe-members.php:137
+#: inscribe-members.php:135 inscribe-members.php:147
 msgid "Last processed user, user ID : "
 msgstr "Dernier membre traité, ID membre :"
 
-#: inscribe-members.php:138
+#: inscribe-members.php:148
 msgid "There are currently no other member of this role to process."
 msgstr "Il n'y a pour l'instant aucun autre membre de ce rôle à traiter."
 

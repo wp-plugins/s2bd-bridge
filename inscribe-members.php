@@ -17,9 +17,13 @@ $wpdb = $table_prefix ;
 	<hr />
 	<div>
 	<?php
+	// v1.2 change
+	/*
 	$fp = fopen (dirname(__FILE__)."/lastiduser.txt", "r+");
 	$lastiduser = fgets ($fp, 11);
 	fclose ($fp);
+	*/
+	// end v1.2 change
 	/***/
 	$sql_options = "SELECT * FROM `".$wpdb."sbd_options`" ;
 	$req_options = mysql_query($sql_options) or die('Erreur SQL !<br>'.$sql_options.'<br>'.mysql_error());
@@ -31,6 +35,7 @@ $wpdb = $table_prefix ;
 		$s_values = $data_options['s_values'] ;
 		$variant_forum = $data_options['variant_forum'] ;
 		$variant_operator = $data_options['variant_operator'] ;
+		$lastiduser = $data_options['lastuserid'] ;	// add v1.2
 	}
 	else {
 		echo '<p style="color : red;">'.__('There are no registered user roles for now.', 's2bd-bridge').'</p>' ;
@@ -128,10 +133,15 @@ $wpdb = $table_prefix ;
 			}
 			$lastiduser = $user_id ;
 			echo '<p style="color : orange;">'.__('Last processed user, user ID : ', 's2bd-bridge').' '.$lastiduser.'</p>' ;
-			$fp = fopen (dirname(__FILE__)."/lastiduser.txt", "r+");
+			// v1.2 change
+			/*$fp = fopen (dirname(__FILE__)."/lastiduser.txt", "r+");
 			fseek ($fp, 0);
 			fputs ($fp, $lastiduser);
-			fclose ($fp);
+			fclose ($fp);*/
+			// Store last user in in DB
+			$sql_store = "UPDATE `".$wpdb."sbd_options` SET `lastuserid` = '".$lastiduser."' WHERE `".$wpdb."sbd_options`.`id` =1 LIMIT 1 ;" ;
+			$req_store = mysql_query($sql_store) or die('Erreur SQL !<br>'.$sql_store.'<br>'.mysql_error());
+			// end v1.2 change
 		}
 		else {
 			echo '<p style="color : red;">'.__('Last processed user, user ID : ', 's2bd-bridge').' '.$lastiduser.'</p>' ;

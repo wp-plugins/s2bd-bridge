@@ -1,10 +1,10 @@
-=== S2BD Bridge ===
+=== S2BD Bridge Free ===
 Contributors: webbud65
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=L3VGXBMWAD2VG
 Tags: s2member custom profile fields, bbpress forum digests, bbpress digest email notifications, linking fields with forums, bbpress, bbpress digest, s2member.
 Requires at least: 4.0 (not tested below)
-Tested up to: 4.0.1
-Stable tag: 1.0.1
+Tested up to: 4.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,6 +38,10 @@ Features :
 * Counting subscribers digests by forum ("Statistics")
 * Manual registration of S2Member members at email notifications of activity on Bbpress forums ("Inscribe members")
 
+IMPORTANT :
+
+* When you update, if you do not want to lose your last member ID treated, thank you to follow the upgrade procedure outlined below, points 1 and 5.
+
 == Installation ==
 
 1. Open wp-content/plugins folder
@@ -48,11 +52,14 @@ Features :
 
 == Upgrading ==
 
-1. Deactivate S2BD Bridge plugin in your dashboard
-2. Open wp-content/plugins folder
-3. Put/Overwrite s2bd-bridge folder
-4. Go to wp-admin, in your dashboard, and reactivate S2BD Bridge plugin
-5. Go to wp-admin, in your dashboard, then S2BD Bridge menu to re-configure the database options.
+1. Before upgrade, go to wp-admin, in your dashboard, then S2BD Bridge/Inscribe members menu and note ID of your last member treated
+2. Deactivate S2BD Bridge plugin in your dashboard
+3. Open wp-content/plugins folder
+4. Put/Overwrite s2bd-bridge folder
+5. Open wp-content/plugins/s2bd-bridge/lastiduser.txt file and write/replace ID by your own last ID member treated
+6. Now, go to wp-admin, in your dashboard, and reactivate S2BD Bridge plugin
+7. Go to wp-admin, in your dashboard, then S2BD Bridge menu to re-configure the database options, if necessary.
+
 
 == Frequently Asked Questions ==
 
@@ -70,6 +77,10 @@ not yet.
 8. Dashboard -> Inscribe members : manual registration of members to digests, since the previously registered member to the digests.
 
 == Changelog ==
+
+= 1.0.2 =
+15/01/2015
+* Database storage of last member ID treated 
 
 = 1.0.1 =
 27/11/14

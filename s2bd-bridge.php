@@ -1,9 +1,9 @@
 <?php
 /**
-	* Plugin Name: S2BD Bridge
+	* Plugin Name: S2BD Bridge Free
 	* Plugin URI: http://buddy-wds.com/developpements/extensions/s2bd-bridge/
 	* Description: Allows the linking of user custom fields (S2Member plugin) with forums (bbPress plugin) and activity notifications by email (Digests bbPress plugin) for users who are subscribed.
-	* Version: 1.0.1
+	* Version: 1.0.2
 	* Author: Ludovic Rousselle
 	* Author URI: http://buddy-wds.com/
 	* Text Domain: s2bd-bridge
@@ -129,7 +129,27 @@ function digestbridge_install() {
 	) $charset_collate;";
 	require_once( ABSPATH . 'wp-admin/includes/upgrade.php' );
 	dbDelta( $sql2 );
-
+	
+	// Test if 'lastuserid' column exist
+	$sql_test = "SELECT COUNT(*) FROM INFORMATION_SCHEMA.COLUMNS WHERE table_schema = '".DB_NAME."' AND table_name = '$table_name1'" ;
+	$req_test = mysql_query($sql_test) or die('Erreur SQL !<br>'.$sql_test.'<br>'.mysql_error());
+	if( mysql_num_rows($req_test) ){
+		$data = mysql_fetch_row($req_test); 
+		$nbcolumns = $data[0] ;
+		if ( $nbcolumns == 6 ) {
+			// Add column to store in DB lastuserid
+			$sql_add = "ALTER TABLE `$table_name1` ADD `lastuserid` INT(11) NOT NULL" ;
+			$req_add = mysql_query($sql_add) or die('Erreur SQL !<br>'.$sql_add.'<br>'.mysql_error());
+		}
+	}
+	// Search last user id in file
+	$fp = fopen (dirname(__FILE__)."/lastiduser.txt", "r+");
+	$lastiduser = fgets ($fp, 11);
+	fclose ($fp);
+	// Store last user in in DB
+	$sql_store = "UPDATE `$table_name1` SET `lastuserid` = '".$lastiduser."' WHERE `$table_name1`.`id` =1 LIMIT 1 ;" ;
+	$req_store = mysql_query($sql_store) or die('Erreur SQL !<br>'.$sql_store.'<br>'.mysql_error());
+	
 	//add_option( 'digestbridge_db_version', $digestbridge_db_version );
 }
 

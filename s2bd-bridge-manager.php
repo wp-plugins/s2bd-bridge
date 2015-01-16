@@ -12,7 +12,7 @@ $base_name = plugin_basename('s2bd-bridge/s2bd-bridge-manager.php');
 $base_page = 'admin.php?page='.$base_name;
 ?>
 <div class="wrap">
-	<h3>S2Member BbPress Digest Bridge - <?php _e('Home', 's2bd-bridge'); ?></h3>
+	<h3>S2Member BbPress Digest Bridge Free - <?php _e('Home', 's2bd-bridge'); ?></h3>
 	<hr />
 	<p>
 	<strong>S2BD Bridge</strong> <?php _e('allows the linking of user custom fields (S2Member plugin) with forums (bbPress plugin) and activity notifications by email (Digests bbPress plugin) for users who are subscribed.', 's2bd-bridge'); ?>
