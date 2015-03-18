@@ -28,7 +28,7 @@ Scenario :
 
 Features :
 
-- On free version :
+On free version :
 
 * Customizable settings :
     * you can choose which custom fields and forums should be considered ("Fields settings" and "Forums settings")
@@ -40,9 +40,9 @@ Features :
 * Counting subscribers digests by forum ("Statistics")
 * Manual registration of S2Member members at email notifications of activity on Bbpress forums ("Inscribe members")
 
-- On pro version (http://buddy-wds.com/developpements/extensions/s2bd-bridge-extension/):
+On pro version (http://buddy-wds.com/developpements/extensions/s2bd-bridge-extension/):
 
-* Manual registrations (only one member, all members, 5 by 5... or reset to your custom value) of S2Member members at email notifications of activity on Bbpress forums ("Inscribe members")
+* Manual registrations (only one member, all members, 5 by 5... or reset to your custom value)
 * Automatic registration checker with schedule options
 * Listing members demoted in level S0 by S2Member (useful for a raise by email, for example)
 
