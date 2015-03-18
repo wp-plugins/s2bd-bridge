@@ -1,4 +1,4 @@
-=== S2BD Bridge Free ===
+=== S2BD Bridge ===
 Contributors: webbud65
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=L3VGXBMWAD2VG
 Tags: s2member custom profile fields, bbpress forum digests, bbpress digest email notifications, linking fields with forums, bbpress, bbpress digest, s2member.
@@ -28,6 +28,8 @@ Scenario :
 
 Features :
 
+- On free version :
+
 * Customizable settings :
     * you can choose which custom fields and forums should be considered ("Fields settings" and "Forums settings")
     * you can choose which member Roles should be considered ("General settings")
@@ -38,9 +40,15 @@ Features :
 * Counting subscribers digests by forum ("Statistics")
 * Manual registration of S2Member members at email notifications of activity on Bbpress forums ("Inscribe members")
 
+- On pro version (http://buddy-wds.com/developpements/extensions/s2bd-bridge-extension/):
+
+* Manual registrations (only one member, all members, 5 by 5... or reset to your custom value) of S2Member members at email notifications of activity on Bbpress forums ("Inscribe members")
+* Automatic registration checker with schedule options
+* Listing members demoted in level S0 by S2Member (useful for a raise by email, for example)
+
 IMPORTANT :
 
-* When you update, if you do not want to lose your last member ID treated, thank you to follow the upgrade procedure outlined below, points 1 and 5.
+* When you update, if you do not want to lose your last member ID treated, thank you to follow the upgrade notice in "Other notes", points 1 and 5.
 
 == Installation ==
 
