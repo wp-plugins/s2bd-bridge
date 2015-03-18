@@ -14,10 +14,11 @@ Addon plugin which allows the linking of custom profile fields (S2Member) with f
 
 S2BD Bridge allows the linking of user's custom profile fields (S2Member plugin) with forums (bbPress plugin) and activity notifications by email (bbPress Digests plugin) for users who are subscribed.
 
-S2BD Bridge is an added extension and therefore requires the prior installation of the following extensions which makes it the gateway:
-* S2Member : https://wordpress.org/plugins/s2member/
-* bbPress : https://wordpress.org/plugins/bbpress/
-* bbPress Digests : https://wordpress.org/plugins/bbpress-digest/
+S2BD Bridge is an added extension and therefore requires the prior installation of the following extensions which makes it the gateway :
+
+* S2Member (https://wordpress.org/plugins/s2member/)
+* bbPress (https://wordpress.org/plugins/bbpress/)
+* bbPress Digests (https://wordpress.org/plugins/bbpress-digest/)
 
 Scenario :
 
