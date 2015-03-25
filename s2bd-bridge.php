@@ -1,6 +1,6 @@
 <?php
 /**
-	* Plugin Name: S2BD Bridge Free
+	* Plugin Name: S2BD Bridge
 	* Plugin URI: http://buddy-wds.com/developpements/extensions/s2bd-bridge/
 	* Description: Allows the linking of user custom fields (S2Member plugin) with forums (bbPress plugin) and activity notifications by email (Digests bbPress plugin) for users who are subscribed.
 	* Version: 1.0.2
@@ -45,6 +45,7 @@ function digestbridge_menu() {
 		add_menu_page(__('S2BD Bridge', 's2bd-bridge'), __('S2BD Bridge', 's2bd-bridge'), 'manage_database', 's2bd-bridge/s2bd-bridge-manager.php', '', 'dashicons-text');
 	}
 	if (function_exists('add_submenu_page')) {
+		add_submenu_page('s2bd-bridge/s2bd-bridge-manager.php', __('Home', 's2bd-bridge'), __('Home', 's2bd-bridge'), 'manage_database', 's2bd-bridge/s2bd-bridge-manager.php');	
 		add_submenu_page('s2bd-bridge/s2bd-bridge-manager.php', __('General settings', 's2bd-bridge'), __('General settings', 's2bd-bridge'), 'manage_database', 's2bd-bridge/general-settings.php');	
 		add_submenu_page('s2bd-bridge/s2bd-bridge-manager.php', __('Fields settings', 's2bd-bridge'), __('Fields settings', 's2bd-bridge'), 'manage_database', 's2bd-bridge/fields-settings.php');		
 		add_submenu_page('s2bd-bridge/s2bd-bridge-manager.php', __('Forums settings', 's2bd-bridge'), __('Forums settings', 's2bd-bridge'), 'manage_database', 's2bd-bridge/forums-settings.php');		

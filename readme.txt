@@ -3,8 +3,8 @@ Contributors: webbud65
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=L3VGXBMWAD2VG
 Tags: s2member custom profile fields, bbpress forum digests, bbpress digest email notifications, linking fields with forums, bbpress, bbpress digest, s2member.
 Requires at least: 4.0 (not tested below)
-Tested up to: 4.1
-Stable tag: 1.0.2
+Tested up to: 4.1.1
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -86,6 +86,10 @@ not yet.
 8. Dashboard -> Inscribe members : manual registration of members to digests, since the previously registered member to the digests.
 
 == Changelog ==
+
+= 1.0.3 =
+19/03/2015
+* Getting compatibility languages answers (yes/oui...) to custom user fields SMember (in the language .po file)
 
 = 1.0.2 =
 15/01/2015

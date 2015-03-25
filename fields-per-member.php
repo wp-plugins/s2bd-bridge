@@ -56,7 +56,8 @@ $wpdb = $table_prefix ;
 				if(mysql_num_rows($result_select)){
 					while($data = mysql_fetch_assoc($result_select)) { 	
 						$j++ ;
-						$test = mb_substr_count($data_int, '"'.$data['field'].'";s:3:"oui";');
+						//$test = mb_substr_count($data_int, '"'.$data['field'].'";s:3:"oui";');	//old
+						$test = mb_substr_count($data_int, '"'.$data['field'].'";s:3:"'.__('yes', 's2bd-bridge').'"');	//new 190315
 						if ( $test != 0 ) {
 							//echo 'Réponse oui à ' . $data['field'] . '... ce champ sera pris en compte et l\'utilisateur sera inscrit au forum correspondant...<br />' ;	//test
 							$fields .= $data['field'] . ' / ' ;

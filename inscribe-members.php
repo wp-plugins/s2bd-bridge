@@ -70,7 +70,8 @@ $wpdb = $table_prefix ;
 					$j = 0 ;
 					while($data_bridge = mysql_fetch_assoc($result_bridge)) { 	
 						$j++ ;
-						$test = mb_substr_count($data_int, '"'.$data_bridge['field'].'";s:3:"oui"');
+						//$test = mb_substr_count($data_int, '"'.$data_bridge['field'].'";s:3:"oui"');	//old
+						$test = mb_substr_count($data_int, '"'.$data_bridge['field'].'";s:3:"'.__('yes', 's2bd-bridge').'"');	//new 190315
 						if ( $test != 0 ) {
 							$fields .= $data_bridge['field'] . ' - ' ; 
 							$forums .= $data_bridge['forum'] . '-' ;

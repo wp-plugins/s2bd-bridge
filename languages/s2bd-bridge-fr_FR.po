@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: S2BD Bridge\n"
-"POT-Creation-Date: 2015-03-18 16:39+0400\n"
-"PO-Revision-Date: 2015-03-18 16:40+0400\n"
+"POT-Creation-Date: 2015-03-24 19:02+0400\n"
+"PO-Revision-Date: 2015-03-24 19:03+0400\n"
 "Last-Translator: Ludovic Rousselle <webbud65@gmail.com>\n"
 "Language-Team: Ludovic Rousselle <webbud65@gmail.com>\n"
 "Language: fr_FR\n"
@@ -35,25 +35,25 @@ msgstr "Il n'y a actuellement pas d'utilisateur enregistré avec ce rôle."
 msgid "Members "
 msgstr "Membres"
 
-#: fields-per-member.php:70 forums-per-member.php:70 forums-per-member.php:76
-#: inscribe-members.php:109
+#: fields-per-member.php:71 forums-per-member.php:70 forums-per-member.php:76
+#: inscribe-members.php:110
 msgid " - User ID : "
 msgstr "- ID utilisateur :"
 
-#: fields-per-member.php:70 forums-per-member.php:70 forums-per-member.php:76
+#: fields-per-member.php:71 forums-per-member.php:70 forums-per-member.php:76
 msgid " - Name : "
 msgstr "- Nom :"
 
-#: fields-per-member.php:70
+#: fields-per-member.php:71
 msgid " - Fields : "
 msgstr "- Champs :"
 
-#: fields-per-member.php:76 forums-per-member.php:81
+#: fields-per-member.php:77 forums-per-member.php:81
 msgid "There are currently no members with this role."
 msgstr "Il n'y a actuellement pas de membre avec ce rôle."
 
-#: fields-per-member.php:85 forums-settings.php:118 s2bd-bridge-manager.php:47
-#: s2bd-bridge.php:52
+#: fields-per-member.php:86 forums-settings.php:118 s2bd-bridge-manager.php:47
+#: s2bd-bridge.php:53
 msgid "Forums per member"
 msgstr "Forums par membre"
 
@@ -109,9 +109,9 @@ msgstr "Actualiser l'écran"
 msgid "Complete the installation (step 3)"
 msgstr "Compléter l'installation (étape 3)"
 
-#: fields-settings.php:139 s2bd-bridge.php:50
+#: fields-settings.php:139 s2bd-bridge.php:51
 msgid "Forums settings"
-msgstr "Paramétrages forums"
+msgstr "Paramètres forums"
 
 #: forums-per-member.php:17
 msgid "List the forums subscriptions per member"
@@ -121,7 +121,7 @@ msgstr "Lister les abonnements forums par membre"
 msgid "You must first select your required forums."
 msgstr "Vous devez d'abord choisir les forums désirés."
 
-#: forums-per-member.php:70 inscribe-members.php:109
+#: forums-per-member.php:70 inscribe-members.php:110
 msgid " - Forums : "
 msgstr "- Forums :"
 
@@ -131,7 +131,7 @@ msgstr "- Forums : pas d'inscription digest forum."
 
 #: forums-per-member.php:91 forums-settings.php:119
 #: forums-subscriptions-stats.php:16 s2bd-bridge-manager.php:45
-#: s2bd-bridge-manager.php:48 s2bd-bridge.php:53
+#: s2bd-bridge-manager.php:48 s2bd-bridge.php:54
 msgid "Statistics"
 msgstr "Statistiques"
 
@@ -187,12 +187,12 @@ msgstr ""
 "Si tout a été correctement paramétré vous pouvez maintenant consulter les "
 "écrans suivants de suivi et d'abonnements de vos utilisateurs :"
 
-#: forums-settings.php:117 s2bd-bridge-manager.php:46 s2bd-bridge.php:51
+#: forums-settings.php:117 s2bd-bridge-manager.php:46 s2bd-bridge.php:52
 msgid "Fields per member"
 msgstr "Champs par membre"
 
 #: forums-settings.php:120 forums-subscriptions-stats.php:126
-#: s2bd-bridge-manager.php:49 s2bd-bridge.php:54
+#: s2bd-bridge-manager.php:49 s2bd-bridge.php:55
 msgid "Inscribe members"
 msgstr "Inscrire les membres"
 
@@ -428,47 +428,51 @@ msgstr ""
 msgid "Continue the installation (step 2)"
 msgstr "Poursuivre l'installation (étape 2)"
 
-#: general-settings.php:167 s2bd-bridge.php:49
+#: general-settings.php:167 s2bd-bridge.php:50
 msgid "Fields settings"
-msgstr "Paramétrages champs"
+msgstr "Paramètres champs"
 
 #: inscribe-members.php:16
 msgid "Inscribe members to forums digests"
 msgstr "Inscrire les membres aux digests forums"
 
-#: inscribe-members.php:109
+#: inscribe-members.php:74
+msgid "yes"
+msgstr "oui"
+
+#: inscribe-members.php:110
 msgid " - Number of forums : "
 msgstr "- Nombre de forums :"
 
-#: inscribe-members.php:109
+#: inscribe-members.php:110
 msgid " - Fields interests : "
 msgstr "- Champs d'intérêts :"
 
-#: inscribe-members.php:119
+#: inscribe-members.php:120
 msgid "This user already has a bbpress digest... "
 msgstr "Cet utilisateur a déjà un digest bbpress..."
 
-#: inscribe-members.php:120
+#: inscribe-members.php:121
 msgid "No update to do"
 msgstr "Pas de mise à jour à faire"
 
-#: inscribe-members.php:124
+#: inscribe-members.php:125
 msgid "This user has no bbp digest... to do..."
 msgstr "Cet utilisateur n'a pas de bbp digest... à faire..."
 
-#: inscribe-members.php:129
+#: inscribe-members.php:130
 msgid "Insertion done... update well done!"
 msgstr "Insertion effectuée... mise à jour bien effectuée !"
 
-#: inscribe-members.php:135 inscribe-members.php:147
+#: inscribe-members.php:136 inscribe-members.php:148
 msgid "Last processed user, user ID : "
 msgstr "Dernier membre traité, ID membre :"
 
-#: inscribe-members.php:148
+#: inscribe-members.php:149
 msgid "There are currently no other member of this role to process."
 msgstr "Il n'y a pour l'instant aucun autre membre de ce rôle à traiter."
 
-#: s2bd-bridge-manager.php:15
+#: s2bd-bridge-manager.php:15 s2bd-bridge.php:48
 msgid "Home"
 msgstr "Accueil"
 
@@ -591,7 +595,7 @@ msgstr ""
 msgid "Begin the installation (step 1)"
 msgstr "Commencer l'installation (étape 1)"
 
-#: s2bd-bridge-manager.php:56 s2bd-bridge.php:48
+#: s2bd-bridge-manager.php:56 s2bd-bridge.php:49
 msgid "General settings"
 msgstr "Paramètres généraux"
 
