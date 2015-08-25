@@ -3,7 +3,7 @@ Contributors: webbud65
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=L3VGXBMWAD2VG
 Tags: s2member custom profile fields, bbpress forum digests, bbpress digest email notifications, linking fields with forums, bbpress, bbpress digest, s2member.
 Requires at least: 4.0 (not tested below)
-Tested up to: 4.1.1
+Tested up to: 4.3
 Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -22,8 +22,7 @@ S2BD Bridge is an added extension and therefore requires the prior installation 
 
 Scenario :
 
-* A user registers by answering your custom questions (only questions with answers "yes/no") (S2Member custom fields) : 
-     * sample question: Are you interested in English literature ? (Possible answers: Yes or No)
+* A user registers by answering your custom questions (only questions with answers "yes/no") (S2Member custom fields) : sample question: Are you interested in English literature ? (Possible answers: Yes or No)
 * Answers to questions are coupled to specific forums (BbPress) : sample forum correlated : English literature
 * Email notification alerts inform the user accordingly inform the user about the upcoming related forums (BbPress Digests)
 
